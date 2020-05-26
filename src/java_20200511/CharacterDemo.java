@@ -1,7 +1,7 @@
 package java_20200511;
 
 public class CharacterDemo {
-	public static void main(String[] args) {
+	public static void main(String[] args) {//
 		// 1. 유니코드 표현 => '\u0000'
 		char c1 = '\uCD5C';
 		char c2 = '\uC7AC';
