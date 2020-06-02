@@ -32,7 +32,7 @@ public class UrlDemo {
 		
 		/* 
 		 * 텍스트일떄 가져오는 법.
-		InputStream in = url.openStream();	//	html 정보
+		InputStream in = url.openStream();	//	html 정보 (2byte)
 		InputStreamReader isr = new InputStreamReader(in);
 		BufferedReader br = new BufferedReader(isr);
 		String readLine = null;
@@ -45,7 +45,7 @@ public class UrlDemo {
 		br.close();
 		*/
 		InputStream in = url.openStream(); // html의 정보를 가져오는법 // 이미지정보
-		FileOutputStream fos = new FileOutputStream("c:\\dev\\아키바리.jpg");
+		FileOutputStream fos = new FileOutputStream("c:\\dev\\300.jpg");
 		
 		byte[] readBytes = new byte[1024*8];
 		int readByteCount = 0;
